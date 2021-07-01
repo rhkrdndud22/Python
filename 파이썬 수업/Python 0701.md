@@ -1,4 +1,4 @@
-## 0710 파이썬 수업
+## 0701 파이썬 수업
 
 ```python
 import requests 
@@ -68,3 +68,11 @@ setTableItem()
 window.mainloop()
 
 ```
+
+실행화면</br>
+
+![image](https://user-images.githubusercontent.com/77717717/124070260-80658680-da78-11eb-967b-ccfd34b65bc0.png)
+
+
+
+
