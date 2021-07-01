@@ -1,10 +1,12 @@
+## 0710 파이썬 수업
+
 ```python
-import requests
+import requests 
 from bs4 import BeautifulSoup
 
 url='http://www.kric.go.kr/jsp/industry/rss/citystapassList.jsp?q_org_cd=A010010024&q_fdate=2021'
 
-response = requests.get(url)
+response = requests.get(url) //requests 매서드로 url을 가져온다.
 html = response.content
 
 bsoup = BeautifulSoup(html, "html.parser")
@@ -64,4 +66,5 @@ setTableItem()
 
 
 window.mainloop()
-```python
+
+```
